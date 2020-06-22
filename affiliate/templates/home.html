@@ -1,0 +1,393 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1, shrink-to-fit=no"
+		/>
+		<meta name="description" content="" />
+		<meta name="author" content="" />
+
+		<title>Hot and Profitable Deals</title>
+
+		<!-- Bootstrap core CSS -->
+		<link
+			href="{% static 'affiliate/vendor/bootstrap/css/bootstrap.min.css' %}"
+			rel="stylesheet"
+		/>
+
+		<!-- Custom styles for this template -->
+		<link
+			href="{% static 'affiliate/css/modern-business.css' %}"
+			rel="stylesheet"
+		/>
+	</head>
+
+	<body>
+		<!-- Navigation -->
+		<nav
+			class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top"
+		>
+			<div class="container">
+				<a class="navbar-brand" href="index.html">Hot New Deals</a>
+				<button
+					class="navbar-toggler navbar-toggler-right"
+					type="button"
+					data-toggle="collapse"
+					data-target="#navbarResponsive"
+					aria-controls="navbarResponsive"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarResponsive">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item">
+							<a class="nav-link" href="about.html">About</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="services.html">Privacy Policy</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="contact.html">Contact</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<header>
+			<div
+				id="carouselExampleIndicators"
+				class="carousel slide"
+				data-ride="carousel"
+			>
+				<ol class="carousel-indicators">
+					<li
+						data-target="#carouselExampleIndicators"
+						data-slide-to="0"
+						class="active"
+					></li>
+					<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+					<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+				</ol>
+				<div class="carousel-inner" role="listbox">
+					<!-- Slide One - Set the background image for this slide in the line below -->
+					<div
+						class="carousel-item active"
+						style="
+							background-image: url('{% static 'affiliate/images/slider1.png' %}');
+						"
+					>
+						<div class="carousel-caption d-none d-md-block">
+							<h3>Hot New Deals</h3>
+							<p>We update you with the lastest and hot deals</p>
+						</div>
+					</div>
+					<!-- Slide Two - Set the background image for this slide in the line below -->
+					<div
+						class="carousel-item"
+						style="
+							background-image: url('{% static 'affiliate/images/slider2.png' %}');
+						"
+					>
+						<div class="carousel-caption d-none d-md-block">
+							<h3>Shop Online</h3>
+							<p>We give you free home delivery.</p>
+						</div>
+					</div>
+					<!-- Slide Three - Set the background image for this slide in the line below -->
+					<div
+						class="carousel-item"
+						style="
+							background-image: url('{% static 'affiliate/images/slider3.png' %}');
+						"
+					>
+						<div class="carousel-caption d-none d-md-block">
+							<h3>Digital Market</h3>
+							<p>Our digital products are top notch.</p>
+						</div>
+					</div>
+				</div>
+				<a
+					class="carousel-control-prev"
+					href="#carouselExampleIndicators"
+					role="button"
+					data-slide="prev"
+				>
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a
+					class="carousel-control-next"
+					href="#carouselExampleIndicators"
+					role="button"
+					data-slide="next"
+				>
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+				</a>
+			</div>
+		</header>
+
+		<!-- Page Content -->
+		<div class="container">
+			<h2 class="my-4">Hot New Deals...</h1>
+
+			<div class="row">
+				<div class="col-lg-4 col-sm-6 portfolio-item">
+					<div class="card h-100">
+						<a href="https://amzn.to/3137OYR"
+							><img
+								class="card-img-top"
+								src="{% static 'affiliate/images/1.jpg' %}"
+								alt=""
+						/></a>
+						<div class="card-body">
+							<h4 class="card-title">
+								<a href="#">LG OLED Alexa Built-In CX Series 65" 4K</a>
+							</h4>
+							<p class="card-text">
+								LG OLED TV: Only OLED pixels emit their own light, allowing for perfect black, intense color and stunning picture.
+							</p>
+							<a href="https://amzn.to/3137OYR" class="btn btn-secondary">$2,145.00</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-sm-6 portfolio-item">
+					<div class="card h-100">
+						<a href="https://amzn.to/2V5q404"
+							><img
+								class="card-img-top"
+								src="{% static 'affiliate/images/2.jpg' %}"
+								alt=""
+						/></a>
+						<div class="card-body">
+							<h4 class="card-title">
+								<a href="#">LG OLED65CXPUA Alexa Built-In CX Series 65" 4K</a>
+							</h4>
+							<p class="card-text">
+								LG OLED TV: Only OLED pixels emit their own light, allowing for perfect black, intense color and stunning picture.
+							</p>
+							<a href="https://amzn.to/2V5q404" class="btn btn-secondary">$1,949.90 </a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-sm-6 portfolio-item">
+					<div class="card h-100">
+						<a href="https://amzn.to/37NkVPv"
+							><img
+								class="card-img-top"
+								src="{% static 'affiliate/images/3.jpg' %}"
+								alt=""
+						/></a>
+						<div class="card-body">
+							<h4 class="card-title">
+								<a href="https://amzn.to/37NkVPv">LG OLED B9 Series 55" 4K Ultra HD Smart OLED TV</a>
+							</h4>
+							<p class="card-text">
+								Your purchase includes One LG B9 Series 55" 4K UHD Smart OLED TV, 2019 model, one Magic remote with batteries, one power cable and user manual
+							</p>
+							<a href="https://amzn.to/37NkVPv" class="btn btn-secondary">$1,479.00</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-sm-6 portfolio-item">
+					<div class="card h-100">
+						<a href="https://amzn.to/31am41Y"
+							><img
+								class="card-img-top"
+								src="{% static 'affiliate/images/4.jpg' %}"
+								alt=""
+						/></a>
+						<div class="card-body">
+							<h4 class="card-title">
+								<a href="https://amzn.to/31am41Y">Sony A8H 65 Inch TV: BRAVIA OLED 4K Ultra HD Smart TV</a>
+							</h4>
+							<p class="card-text">
+								PICTURE PROCESSOR X1 ULTIMATE: Sony’s best processor analyzes content to bring out OLED’s intense contrast with pure blacks, peak brightness and natural colors
+							</p>
+							<a href="https://amzn.to/31am41Y" class="btn btn-secondary">$2,798.00</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-sm-6 portfolio-item">
+					<div class="card h-100">
+						<a href="https://amzn.to/2AWibmL"
+							><img
+								class="card-img-top"
+								src="{% static 'affiliate/images/5.jpg' %}"
+								alt=""
+						/></a>
+						<div class="card-body">
+							<h4 class="card-title">
+								<a href="https://amzn.to/2AWibmL">Sony XBR-55A9G 55" MASTER Series BRAVIA OLED</a>
+							</h4>
+							<p class="card-text">
+								OLED + PIXEL CONTRAST BOOSTER: Millions of individual pixels are supercharged for more vibrant colors to complement absolute OLED black.
+							</p>
+							<a href="https://amzn.to/2AWibmL" class="btn btn-secondary">$2,949.99</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-sm-6 portfolio-item">
+					<div class="card h-100">
+						<a href="https://amzn.to/2Nf7uOR"
+							><img
+								class="card-img-top"
+								src="{% static 'affiliate/images/6.jpg' %}"
+								alt=""
+						/></a>
+						<div class="card-body">
+							<h4 class="card-title">
+								<a href="https://amzn.to/2Nf7uOR">LG SIGNATURE OLED Alexa Built-in</a>
+							</h4>
+							<p class="card-text">
+								LG a9 GEN 2 INTELLIGENT PROCESSOR: Images, action and color are brought to new life to instantly enhance picture quality through LG's best 4K processor, empowered by AI at its core
+							</p>
+							<a href="https://amzn.to/2Nf7uOR" class="btn btn-secondary">$4,338.64</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-sm-6 portfolio-item">
+					<div class="card h-100">
+						<a href="https://amzn.to/2YkYpdn"
+							><img
+								class="card-img-top"
+								src="{% static 'affiliate/images/7.jpg' %}"
+								alt=""
+						/></a>
+						<div class="card-body">
+							<h4 class="card-title">
+								<a href="https://amzn.to/2YkYpdn">Samsung Flat 43" QLED 4K</a>
+							</h4>
+							<p class="card-text">
+								SMART TV WITH UNIVERSAL GUIDE: Simple on-screen Guide is an easy way to find streaming content and live TV shows 100% COLOR VOLUME WITH QUANTUM DOTS
+							</p>
+							<a href="https://amzn.to/2YkYpdn" class="btn btn-secondary">$1,423.49</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-sm-6 portfolio-item">
+					<div class="card h-100">
+						<a href="https://amzn.to/37Pd6so"
+							><img
+								class="card-img-top"
+								src="{% static 'affiliate/images/8.jpg' %}"
+								alt=""
+						/></a>
+						<div class="card-body">
+							<h4 class="card-title">
+								<a href="https://amzn.to/37Pd6so">Samsung UN65RU7300FXZA Curved 65-Inch 4K UHD 7 Series</a>
+							</h4>
+							<p class="card-text">
+								4K UHD PROCESSOR: Powerful 4K UHD processor optimizes your TV’s performance by upscaling every show, season, and scene with 4K picture quality
+							</p>
+							<a href="https://amzn.to/37Pd6so" class="btn btn-secondary">Find out pricing</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-sm-6 portfolio-item">
+					<div class="card h-100">
+						<a href="https://amzn.to/2V7vQy6"
+							><img
+								class="card-img-top"
+								src="{% static 'affiliate/images/9.jpg' %}"
+								alt=""
+						/></a>
+						<div class="card-body">
+							<h4 class="card-title">
+								<a href="https://amzn.to/2V7vQy6">LG SIGNATURE OLED77G7P 77-Inch 4K </a>
+							</h4>
+							<p class="card-text">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque
+								earum nostrum suscipit ducimus nihil provident, perferendis rem
+								illo, voluptate atque, sit eius in voluptates, nemo repellat
+								fugiat excepturi! Nemo, esse.
+							</p>
+							<a href="https://amzn.to/2V7vQy6" class="btn btn-secondary">$3,799.99</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- /.row -->
+			
+			<br>
+			<hr>
+			<br><br>
+			
+			<!-- Features Section -->
+			<div class="row">
+				<div class="col-lg-6">
+					<script type="text/javascript">
+						amzn_assoc_placement = "adunit0";
+						amzn_assoc_search_bar = "true";
+						amzn_assoc_tracking_id = "dekings44-20";
+						amzn_assoc_search_bar_position = "bottom";
+						amzn_assoc_ad_mode = "search";
+						amzn_assoc_ad_type = "smart";
+						amzn_assoc_marketplace = "amazon";
+						amzn_assoc_region = "US";
+						amzn_assoc_title = "Shop Related Products";
+						amzn_assoc_default_search_phrase = "trade mills";
+						amzn_assoc_default_category = "All";
+						amzn_assoc_linkid = "d45e9bd78e91efed28d048836f03db81";
+						</script>
+						<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>
+				</div>
+				<div class="col-lg-6">
+					<script type="text/javascript">
+						amzn_assoc_placement = "adunit0";
+						amzn_assoc_search_bar = "true";
+						amzn_assoc_tracking_id = "dekings44-20";
+						amzn_assoc_search_bar_position = "bottom";
+						amzn_assoc_ad_mode = "search";
+						amzn_assoc_ad_type = "smart";
+						amzn_assoc_marketplace = "amazon";
+						amzn_assoc_region = "US";
+						amzn_assoc_title = "Shop Related Products";
+						amzn_assoc_default_search_phrase = "television";
+						amzn_assoc_default_category = "All";
+						amzn_assoc_linkid = "d45e9bd78e91efed28d048836f03db81";
+						</script>
+						<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>
+				</div>
+			</div>
+			<!-- /.row -->
+			<br>
+			<hr />
+			<br>
+			<!-- Call to Action Section -->
+			<div class="row mb-4">
+				<div class="col-md-8">
+					<p>
+						How about bringing the cinemas to your home. Check out the newest 4k televisions on amazon
+					</p>
+				</div>
+				<div class="col-md-4">
+					<a class="btn btn-lg btn-secondary btn-block" href="https://www.amazon.com/s?k=televisions+4k&ref=nb_sb_noss"
+						>Search 4k Televisions On Amazon</a
+					>
+				</div>
+			</div>
+		</div>
+		<!-- /.container -->
+
+		<!-- Footer -->
+		<footer class="py-5 bg-dark">
+			<div class="container">
+				<p class="m-0 text-center text-white">
+					Copyright &copy; Hot Deals 2020
+				</p>
+			</div>
+			<!-- /.container -->
+		</footer>
+
+		<!-- Bootstrap core JavaScript -->
+		<script src="{% static 'affiliate/vendor/jquery/jquery.min.js' %}"></script>
+		<script src="{% static 'affiliate/vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+	</body>
+</html>
