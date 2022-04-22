@@ -18,7 +18,7 @@ pikepdf==1.13.0
 psycopg2==2.8.5
 pycodestyle==2.6.0
 pylint==2.5.3
-PyPDF2==1.26.0
+PyPDF2==1.27.5
 python-decouple==3.3
 pytz==2019.2
 six==1.15.0
